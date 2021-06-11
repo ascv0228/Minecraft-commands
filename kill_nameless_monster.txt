@@ -1,0 +1,130 @@
+殺無名怪物
+
+/execute as @e[type=skeleton] unless data entity @s CustomName run kill @s
+/execute as @e[type=zombie] unless data entity @s CustomName run kill @s
+/execute as @e[type=zombie_villager] unless data entity @s CustomName run kill @s
+/execute as @e[type=husk] unless data entity @s CustomName run kill @s
+/execute as @e[type=drowned] unless data entity @s CustomName run kill @s
+/execute as @e[type=zombified_piglin] unless data entity @s CustomName run kill @s
+/execute as @e[type=stray] unless data entity @s CustomName run kill @s
+/execute as @e[type=vex] unless data entity @s CustomName run kill @s
+/execute as @e[type=vindicator] unless data entity @s CustomName run kill @s
+/execute as @e[type=witch] unless data entity @s CustomName run kill @s
+/execute as @e[type=silverfish] unless data entity @s CustomName run kill @s
+/execute as @e[type=enderman] unless data entity @s CustomName run kill @s
+/execute as @e[type=creeper] unless data entity @s CustomName run kill @s
+/execute as @e[type=spider] unless data entity @s CustomName run kill @s
+/execute as @e[type=pillager] unless data entity @s CustomName run kill @s
+/execute as @e[type=phantom] unless data entity @s CustomName run kill @s
+/execute as @e[type=evoker] unless data entity @s CustomName run kill @s
+/execute as @e[type=blaze] unless data entity @s CustomName run kill @s
+
+#########################################################################################
+敵對BOSS
+#########################################################################################
+
+終界龍
+/execute as @e[type=ender_dragon] unless data entity @s CustomName run kill @s
+
+凋零怪
+/execute as @e[type=wither] unless data entity @s CustomName run kill @s
+
+#########################################################################################
+敵對生物
+#########################################################################################
+
+殭屍
+/execute as @e[type=zombie] unless data entity @s CustomName run kill @s
+
+殭屍村民
+/execute as @e[type=zombie_villager] unless data entity @s CustomName run kill @s
+
+屍殼
+/execute as @e[type=husk] unless data entity @s CustomName run kill @s
+
+沉屍
+/execute as @e[type=drowned] unless data entity @s CustomName run kill @s
+
+殭屍豬人
+/execute as @e[type=zombified_piglin] unless data entity @s CustomName run kill @s
+
+豬布林
+/execute as @e[type=piglin] unless data entity @s CustomName run kill @s
+
+豬布林蠻兵
+/execute as @e[type=piglin_brute] unless data entity @s CustomName run kill @s
+
+豬布獸
+/execute as @e[type=hoglin] unless data entity @s CustomName run kill @s
+
+豬屍獸
+/execute as @e[type=zoglin] unless data entity @s CustomName run kill @s
+
+骷弓
+/execute as @e[type=skeleton] unless data entity @s CustomName run kill @s
+
+凋零骷髏
+/execute as @e[type=wither_skeleton] unless data entity @s CustomName run kill @s
+
+流髑
+/execute as @e[type=stray] unless data entity @s CustomName run kill @s
+
+惱鬼
+/execute as @e[type=vex] unless data entity @s CustomName run kill @s
+
+喚魔者
+/execute as @e[type=evoker] unless data entity @s CustomName run kill @s
+
+衛道士
+/execute as @e[type=vindicator] unless data entity @s CustomName run kill @s
+
+掠奪者
+/execute as @e[type=pillager] unless data entity @s CustomName run kill @s
+
+女巫
+/execute as @e[type=witch] unless data entity @s CustomName run kill @s
+
+蠹魚
+/execute as @e[type=silverfish] unless data entity @s CustomName run kill @s
+
+終界使者
+/execute as @e[type=enderman] unless data entity @s CustomName run kill @s
+
+終界蟎
+/execute as @e[type=endermite] unless data entity @s CustomName run kill @s
+
+苦力怕
+/execute as @e[type=creeper] unless data entity @s CustomName run kill @s
+
+蜘蛛
+/execute as @e[type=spider] unless data entity @s CustomName run kill @s
+
+洞穴蜘蛛
+/execute as @e[type=cave_spider] unless data entity @s CustomName run kill @s
+
+夜魅
+/execute as @e[type=phantom] unless data entity @s CustomName run kill @s
+
+烈焰使者
+/execute as @e[type=blaze] unless data entity @s CustomName run kill @s
+
+地獄幽靈
+/execute as @e[type=ghast] unless data entity @s CustomName run kill @s
+
+熔岩史萊姆
+/execute as @e[type=magma_cube] unless data entity @s CustomName run kill @s
+
+史萊姆
+/execute as @e[type=slime] unless data entity @s CustomName run kill @s
+
+遠古深海守衛
+/execute as @e[type=elder_guardian] unless data entity @s CustomName run kill @s
+
+深海守衛
+/execute as @e[type=guardian] unless data entity @s CustomName run kill @s
+
+界伏蚌
+/execute as @e[type=shulker] unless data entity @s CustomName run kill @s
+
+
+
