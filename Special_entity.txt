@@ -1,0 +1,90 @@
+############ 物品 (give)  ############
+
+指令方塊
+/give @a minecraft:command_block
+
+指令方塊礦車
+/give @a minecraft:command_block_minecart
+
+光
+/give @a minecraft:light{BlockStateTag: {level:"<int>"}}
+
+屏障
+/give @a minecraft:barrier
+
+
+
+
+############ 實體 (summon)############
+
+龍炎彈
+dragon_fireball
+
+火球
+fireball
+
+經驗球
+experience_orb
+
+拋出的經驗瓶
+experience_bottle
+
+箭矢
+arrow
+
+藥水效果雲
+area_effect_cloud
+
+終界水晶
+end_crystal
+
+拋出的終界珍珠
+ender_pearl
+
+終界之眼
+eye_of_ender
+
+喚魔者尖牙
+evoker_fangs
+
+掉落的方塊
+falling_block
+
+煙火
+firework_rocket
+
+
+
+
+
+############ 方塊 (setblock)############
+
+地獄傳送門方塊
+nether_portal
+
+終界傳送門方塊
+end_portal
+
+終界折躍門方塊
+end_gateway
+/setblock ~ ~-5 ~ minecraft:end_gateway{Age:180,ExactTeleport:1,ExitPortal:{X:0,Y:100,Z:0}} replace
+
+生怪磚
+spawner
+
+經驗值生怪磚
+/setblock ~0 ~1 ~0 spawner{SpawnData:{id:experience_orb,Value:500},SpawnCount:100,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1} replace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
