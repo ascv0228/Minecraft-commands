@@ -1,5 +1,5 @@
 獄髓劍
-/give @a minecraft:netherite_sword{Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:flame",lvl:32767},{id:"minecraft:sweeping",lvl:32767},{id:"minecraft:unbreaking",lvl:32767},{id:"minecraft:looting",lvl:100},{id:"minecraft:Mending"}],Unbreakable:1b} 1
+/give @a minecraft:netherite_sword{Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:flame",lvl:32767},{id:"minecraft:sweeping",lvl:32767},{id:"minecraft:unbreaking",lvl:32767},{id:"minecraft:looting",lvl:100},{id:"minecraft:fire_aspect",lvl:100s},{id:"minecraft:Mending"}],Unbreakable:1b} 1
 
 弓
 /give @a minecraft:bow{Unbreakable:1,Enchantments:[{id:"unbreaking",lvl:32767},{ id:"power",lvl:32767},{id:"punch",lvl:5},{id:"mending",lvl: 32767},{id:"flame",lvl:1},{id:"infinity",lvl:1}]} 1
@@ -21,25 +21,25 @@
 /give @a minecraft:netherite_axe{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:fortune,lvl:100},{id:unbreaking,lvl:32767},{id:mending,lvl:1}]}
 
 獄髓鎬（絲綢之觸）
-/give @a minecraft:netherite_pickaxe{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:silk_touch,lvl:1},{id:unbreaking,lvl:32767},{id:mending,lvl:1} ]}
+/give @a minecraft:netherite_pickaxe{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:silk_touch,lvl:1},{id:unbreaking,lvl:32767},{id:mending,lvl:1}]}
 
 獄髓鎬（幸運）
 /give @a minecraft:netherite_pickaxe{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:fortune,lvl:100},{id:unbreaking,lvl:32767},{id:mending,lvl:1} ]}
 
 獄髓鏟（絲綢之觸）
-/give @a minecraft:netherite_shovel{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:silk_touch,lvl:1},{id:unbreaking,lvl:32767},{id:mending,lvl:32767} ]}
+/give @a minecraft:netherite_shovel{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:silk_touch,lvl:1},{id:unbreaking,lvl:32767},{id:mending,lvl:32767}]}
 
 獄髓鏟（幸運）
-/give @a minecraft:netherite_shovel{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:fortune,lvl:100},{id:unbreaking,lvl:32767},{id:mending,lvl:32767} ]}
+/give @a minecraft:netherite_shovel{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:fortune,lvl:100},{id:unbreaking,lvl:32767},{id:mending,lvl:32767}]}
 
 獄髓鋤（絲綢之觸）
-/give @a minecraft:netherite_hoe{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:silk_touch,lvl:1},{id:unbreaking,lvl:32767},{id:mending,lvl:32767} ]}
+/give @a minecraft:netherite_hoe{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:silk_touch,lvl:1},{id:unbreaking,lvl:32767},{id:mending,lvl:32767}]}
 
 獄髓鋤（幸運）
-/give @a minecraft:netherite_hoe{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:fortune,lvl:100},{id:unbreaking,lvl:32767},{id:mending,lvl:32767} ]}
+/give @a minecraft:netherite_hoe{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:fortune,lvl:100},{id:unbreaking,lvl:32767},{id:mending,lvl:32767}]}
 
 釣竿：
-/give @a minecraft:fishing_rod{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:lure",lvl:5},{id:"minecraft:looting",lvl:100},{id:luck_of_the_sea,lvl:32767},{id:unbreaking,lvl:32767},{id:mending,lvl:32767} ]}
+/give @a minecraft:fishing_rod{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:lure",lvl:5},{id:"minecraft:looting",lvl:100},{id:luck_of_the_sea,lvl:32767},{id:unbreaking,lvl:32767},{id:mending,lvl:32767}]}
 
 
 
