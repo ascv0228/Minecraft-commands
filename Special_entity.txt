@@ -124,7 +124,7 @@ llama_spit
 生怪磚礦車
 spawner_minecart
 /summon spawner_minecart ~ ~ ~ {Invulnerable:true,SpawnData:{id:experience_orb,Value:500},SpawnCount:100,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}
-/summon spawner_minecart ~ ~ ~ {Invulnerable:true,SpawnData:{id:lightning_bolt,Value:500},SpawnCount:3,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}
+/summon spawner_minecart ~ ~ ~ {Invulnerable:true,SpawnData:{id:lightning_bolt},SpawnCount:3,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}
 
 追跡之箭
 spectral_arrow
