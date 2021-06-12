@@ -21,11 +21,37 @@ chain_command_block
 拼圖方塊
 /give @a minecraft:jigsaw
 
+束口袋
+/give @a minecraft:bundle
+
 伏聆振測器
 /give @a minecraft:sculk_sensor
 
 玩家頭
 /give @a minecraft:player_head
+
+知識之書
+/give @a minecraft:knowledge_book
+
+完成的書
+/give @a minecraft:written_book
+
+書和羽毛筆
+/give @a minecraft:writable_book
+
+music_disc_11
+music_disc_13
+music_disc_blocks
+music_disc_cat
+music_disc_chirp
+music_disc_far
+music_disc_mall
+music_disc_mellohi
+music_disc_pigstep
+music_disc_stal
+music_disc_strad
+music_disc_wait
+music_disc_ward
 
 ############ 實體 (summon)############
 
