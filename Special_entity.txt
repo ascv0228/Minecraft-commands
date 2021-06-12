@@ -1,7 +1,13 @@
 ############ 物品 (give)  ############
 
+除錯棒
+/give @a minecraft:debug_stick
+
 指令方塊
 /give @a minecraft:command_block
+command_block
+repeating_command_block
+chain_command_block
 
 指令方塊礦車
 /give @a minecraft:command_block_minecart
@@ -12,22 +18,46 @@
 屏障
 /give @a minecraft:barrier
 
+拼圖方塊
+/give @a minecraft:jigsaw
 
+伏聆振測器
+/give @a minecraft:sculk_sensor
 
+玩家頭
+/give @a minecraft:player_head
 
 ############ 實體 (summon)############
+
+閃電
+lightning_bolt
 
 龍炎彈
 dragon_fireball
 
+界伏彈
+shulker_bullet
+
 火球
 fireball
+
+小火球
+small_fireball
+
+雪球
+snowball
+
+標記(暫時沒功能)
+marker
 
 經驗球
 experience_orb
 
 拋出的經驗瓶
 experience_bottle
+
+飛濺藥水
+potion
 
 箭矢
 arrow
@@ -53,9 +83,34 @@ falling_block
 煙火
 firework_rocket
 
+發光展示框
+glow_item_frame
 
+展示框
+item_frame
 
+栓繩
+leash_knot
 
+駱馬唾液
+llama_spit
+
+生怪磚礦車
+spawner_minecart
+/summon spawner_minecart ~ ~ ~ {Invulnerable:true,SpawnData:{id:experience_orb,Value:500},SpawnCount:100,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}
+/summon spawner_minecart ~ ~ ~ {Invulnerable:true,SpawnData:{id:lightning_bolt,Value:500},SpawnCount:3,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}
+
+追跡之箭
+spectral_arrow
+
+三叉戟
+trident
+
+點燃的炸彈
+tnt
+
+拼圖方塊
+jigsaw
 
 ############ 方塊 (setblock)############
 
@@ -75,13 +130,25 @@ spawner
 經驗值生怪磚
 /setblock ~0 ~1 ~0 spawner{SpawnData:{id:experience_orb,Value:500},SpawnCount:100,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1} replace
 
+閃電生怪磚
+/setblock ~ ~ ~ spawner{SpawnData:{id:lightning_bolt,Value:1},SpawnCount:1,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:5}
 
+火
+fire
 
+空氣 air
+洞穴空氣 cave_air
+虛空空氣 void_air
 
+洞穴藤蔓
+cave_vines
+cave_vines_plant
 
+移動活塞(???)
+moving_piston
 
-
-
+活塞頭
+piston_head
 
 
 
