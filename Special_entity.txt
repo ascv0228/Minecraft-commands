@@ -159,8 +159,8 @@ spawner
 閃電生怪磚
 /setblock ~ ~ ~ spawner{SpawnData:{id:lightning_bolt},SpawnCount:1,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:5}
 
-/setblock ~ ~ ~ spawner{SpawnData:{Item:{id:diamond}},SpawnCount:500,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1} replace
-
+鑽石生怪磚
+/setblock ~ ~ ~ spawner{SpawnData:{id:"item",Item:{Count:1b,id:"minecraft:diamond"}},SpawnCount:500,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1} replace
 
 火
 fire
