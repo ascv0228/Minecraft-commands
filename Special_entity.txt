@@ -1,4 +1,6 @@
 ############ 物品 (give)  ############
+疊加武器
+/summon minecraft:item ~ ~ ~3 {Item:{id:diamond_axe,Count:64b,Damage:3}}
 
 除錯棒
 /give @a minecraft:debug_stick
