@@ -157,7 +157,10 @@ spawner
 /setblock ~0 ~1 ~0 spawner{SpawnData:{id:experience_orb,Value:500},SpawnCount:100,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1} replace
 
 閃電生怪磚
-/setblock ~ ~ ~ spawner{SpawnData:{id:lightning_bolt,Value:1},SpawnCount:1,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:5}
+/setblock ~ ~ ~ spawner{SpawnData:{id:lightning_bolt},SpawnCount:1,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:5}
+
+/setblock ~ ~ ~ spawner{SpawnData:{Item:{id:diamond}},SpawnCount:500,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1} replace
+
 
 火
 fire
