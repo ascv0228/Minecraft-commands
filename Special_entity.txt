@@ -5,6 +5,9 @@
 除錯棒
 /give @a minecraft:debug_stick
 
+隱形+固定+無敵
+/give @p minecraft:item_frame{EntityTag:{Invisible:1b,Fixed:1b,Invulnerable:1b}}
+
 指令方塊
 /give @a minecraft:command_block
 command_block
