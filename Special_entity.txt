@@ -44,6 +44,9 @@ chain_command_block
 書和羽毛筆
 /give @a minecraft:writable_book
 
+不可合成箭矢
+/give @s minecraft:tipped_arrow{Potion:"minecraft:empty"}
+
 music_disc_11
 music_disc_13
 music_disc_blocks
