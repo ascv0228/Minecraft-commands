@@ -62,6 +62,7 @@ lightning_bolt
 
 龍炎彈
 dragon_fireball
+/summon dragon_fireball ~ ~ ~ {power:[0.0d,-1.0d,0.0d]}
 
 界伏彈
 shulker_bullet
