@@ -1,0 +1,28 @@
+//鐵、黃金、鑽石、綠寶石生怪磚
+/setblock ~ ~ ~ spawner{SpawnData:{id:"item",Item:{Count:1b,id:"minecraft:diamond_block"}},SpawnPotentials:[{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:iron_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:gold_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:emerald_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:diamond_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:netherite_block"}}}],SpawnCount:500,SpawnRange:5,maxNearbyEntities:50,Delay:1,MinSpawnDelay:3,MaxSpawnDelay:3} replace
+
+//鑽石生怪磚
+/setblock ~ ~ ~ spawner{SpawnData:{id:"item",Item:{Count:1b,id:"minecraft:diamond"}},SpawnCount:500,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1} replace
+
+//閃電生怪磚
+/setblock ~ ~ ~ spawner{SpawnData:{id:lightning_bolt},SpawnCount:1,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:5}
+
+//經驗值生怪磚
+/setblock ~0 ~1 ~0 spawner{SpawnData:{id:experience_orb,Value:500},SpawnCount:100,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1} replace
+
+
+
+
+
+
+
+########################生怪磚礦車########################
+//經驗值生怪磚礦車
+/summon spawner_minecart ~ ~ ~ {Invulnerable:true,SpawnData:{id:experience_orb,Value:500},SpawnCount:100,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}
+
+//閃電生怪磚礦車
+/summon spawner_minecart ~ ~ ~ {Invulnerable:true,SpawnData:{id:lightning_bolt},SpawnCount:3,SpawnRange:5,maxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}
+
+
+
+
