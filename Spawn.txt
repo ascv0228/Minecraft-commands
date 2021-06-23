@@ -1,3 +1,45 @@
+########################沒有生怪蛋########################
+閃電苦力帕
+/summon minecraft:creeper ~ ~ ~ {powered:1}
+
+########################生怪蛋########################
+物品蛋 //無法以生怪蛋放入生怪磚
+/give @s creeper_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"鑽石*1生怪蛋"}]'},EntityTag:{id:"item",Item:{Count:1b,id:"minecraft:diamond"}}}
+
+閃電苦力帕 //無法以生怪蛋放入生怪磚
+/give @s creeper_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"閃電苦力帕生怪蛋"}]'},EntityTag:{id:"minecraft:creeper",powered:1,CustomName:""}}
+
+殺手兔 //無法以生怪蛋放入生怪磚
+/give @s rabbit_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"殺手兔生怪蛋"}]'},EntityTag:{id:"minecraft:rabbit",RabbitType:99,CustomName:""}}
+
+可馴服骷髏馬
+/give @s skeleton_horse_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"可馴服骷髏馬生怪蛋"}]'},EntityTag:{CustomName:"",Tame:1,SaddleItem:{id:saddle,Count:1}}}
+
+經驗值蛋
+/give @s glow_squid_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"1400經驗值生怪蛋"}]'},EntityTag:{id:"experience_orb",Value:1400}}
+
+閃電蛋
+/give @s piglin_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"閃電蛋"}]'},EntityTag:{id:"lightning_bolt"}}
+
+鐵巨人蛋
+/give @s polar_bear_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"鐵巨人生怪蛋"}]'},EntityTag:{id:"minecraft:iron_golem",CustomName:""}}
+
+雪人
+/give @s polar_bear_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"雪人生怪蛋"}]'},EntityTag:{id:"minecraft:snow_golem",CustomName:""}}
+
+殭屍巨人
+/give @s zombie_villager_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"殭屍巨人生怪蛋"}]'},EntityTag:{id:"minecraft:giant",CustomName:""}}
+
+終界龍
+/give @s enderman_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"終界龍生怪蛋"}]'},EntityTag:{id:"minecraft:ender_dragon",CustomName:""}}
+
+凋零怪
+/give @s wither_skeleton_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"凋零怪生怪蛋"}]'},EntityTag:{id:"minecraft:wither",CustomName:""}}
+
+幻術師
+/give @s stray_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"幻術師生怪蛋"}]'},EntityTag:{id:"minecraft:illusioner",CustomName:""}}
+
+########################生怪磚########################
 //鐵、黃金、鑽石、綠寶石生怪磚
 /setblock ~ ~ ~ spawner{SpawnData:{id:"item",Item:{Count:1b,id:"minecraft:diamond_block"}},SpawnPotentials:[{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:iron_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:gold_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:emerald_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:diamond_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:netherite_block"}}}],SpawnCount:500,SpawnRange:5,maxNearbyEntities:50,Delay:1,MinSpawnDelay:3,MaxSpawnDelay:3} replace
 
