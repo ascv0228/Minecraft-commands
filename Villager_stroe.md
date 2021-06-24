@@ -37,7 +37,7 @@ VillagerData:{
 
 
 
-/summon minecraft:villager ~ ~1 ~ {VillagerData:{profession:"minecraft:armorer",level:99},Invulnerable:1,NoAI:1,PersistenceRequired:1,Offers:{Recipes:[{maxUses:100000000,rewardExp:true,buy:{Count:1,id:"stone"},sell:{Count:1,id:"diamond"}}]}}
+/summon minecraft:villager ~ ~1 ~ {VillagerData:{profession:"minecraft:armorer",level:99},Invulnerable:1,NoAI:1,PersistenceRequired:1,Offers:{Recipes:[{maxUses:100000000,rewardExp:true,buy:{Count:1,id:"stone"},sell:{Count:1,id:"diamond"}}]}}  
 
 
 
@@ -50,7 +50,7 @@ VillagerData:{
 
 
 雜物Villager
-/summon minecraft:villager ~ ~1 ~ {VillagerData:{profession:"minecraft:armorer",level:99},CustomNameVisible:1,CustomName:'[{"text":"","italic":false},{"text":"生怪磚商人"}]',Invulnerable:1,NoAI:1,PersistenceRequired:1,Offers:{Recipes:[{maxUses:100000000,rewardExp:true,buy:{Count:1,id:"emerald"},sell:{Count:1,id:"spawner"}}]}}
+/summon minecraft:villager ~ ~1 ~ {VillagerData:{profession:"minecraft:armorer",level:99},CustomNameVisible:1,CustomName:'[{"text":"","italic":false},{"text":"生怪磚商人"}]',Invulnerable:1,NoAI:1,PersistenceRequired:1,Offers:{Recipes:[{maxUses:100000000,rewardExp:true,buy:{Count:1,id:"emerald"},sell:{Count:1,id:"spawner"}}]}}  
 
 
 
