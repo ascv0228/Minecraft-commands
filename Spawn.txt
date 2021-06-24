@@ -51,6 +51,9 @@
 殺手兔生怪磚礦車
 /give @p stray_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"殺手兔生怪磚礦車"}]'},EntityTag:{id:"minecraft:spawner_minecart",CustomName:"",Invulnerable:true,SpawnData:{id:"minecraft:rabbit",RabbitType:99},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:rabbit",RabbitType:99}}],SpawnCount:3,SpawnRange:5,MaxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}}
 
+雪狐生怪磚礦車(針葉林專用)
+/give @p stray_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"雪狐生怪磚礦車(針葉林專用)"}]'},EntityTag:{id:"minecraft:spawner_minecart",CustomName:"",Invulnerable:true,SpawnData:{id:"fox",Type:"snow"},SpawnPotentials:[{Weight:1,Entity:{id:"fox",Type:"snow"}}],SpawnCount:3,SpawnRange:5,MaxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}}
+
 可馴服骷髏馬(雷雨專用)
 /give @p stray_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"可馴服骷髏馬生怪磚礦車(雷雨專用)"}]'},EntityTag:{id:"minecraft:spawner_minecart",CustomName:"",Invulnerable:true,SpawnData:{id:"minecraft:skeleton_horse",Tame:1,SaddleItem:{id:saddle,Count:1}},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:skeleton_horse",Tame:1,SaddleItem:{id:saddle,Count:1}}}],SpawnCount:3,SpawnRange:5,MaxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}}
 
