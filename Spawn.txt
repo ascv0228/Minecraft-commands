@@ -1,7 +1,3 @@
-########################沒有生怪蛋########################
-閃電苦力帕
-/summon minecraft:creeper ~ ~ ~ {powered:1}
-
 ########################生怪蛋########################
 物品蛋 //無法以生怪蛋放入生怪磚
 /give @s creeper_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"鑽石*1生怪蛋"}]'},EntityTag:{id:"item",Item:{Count:1b,id:"minecraft:diamond"}}}
@@ -12,10 +8,10 @@
 殺手兔 //無法以生怪蛋放入生怪磚
 /give @s rabbit_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"殺手兔生怪蛋"}]'},EntityTag:{id:"minecraft:rabbit",RabbitType:99,CustomName:""}}
 
-可馴服骷髏馬
+可馴服骷髏馬 //無法以生怪蛋放入生怪磚
 /give @s skeleton_horse_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"可馴服骷髏馬生怪蛋"}]'},EntityTag:{CustomName:"",Tame:1,SaddleItem:{id:saddle,Count:1}}}
 
-經驗值蛋
+經驗值蛋 //無法以生怪蛋放入生怪磚
 /give @s glow_squid_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"1400經驗值生怪蛋"}]'},EntityTag:{id:"experience_orb",Value:1400}}
 
 閃電蛋
@@ -42,11 +38,27 @@
 
 
 
+########################礦車生怪蛋########################
+閃電生怪磚礦車
+/give @p stray_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"閃電生怪磚礦車"}]'},EntityTag:{id:"minecraft:spawner_minecart",CustomName:"",Invulnerable:true,SpawnData:{id:"minecraft:lightning_bolt"},SpawnPotentials:[{Entity:{id:"minecraft:lightning_bolt"}}],SpawnCount:3,SpawnRange:5,MaxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}}
+
+礦物生怪磚礦車
+/give @p stray_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"礦物生怪磚礦車"}]'},EntityTag:{id:"minecraft:spawner_minecart",CustomName:"",Invulnerable:true,SpawnData:{id:"item",Item:{Count:1b,id:"minecraft:diamond_block"}},SpawnPotentials:[{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:iron_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:gold_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:emerald_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:diamond_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:netherite_block"}}}],SpawnCount:3,SpawnRange:5,MaxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}}
+
+閃電苦力帕生怪磚礦車
+/give @p stray_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"閃電苦力帕生怪磚礦車"}]'},EntityTag:{id:"minecraft:spawner_minecart",CustomName:"",Invulnerable:true,SpawnData:{id:"minecraft:creeper",powered:1},SpawnPotentials:[{Entity:{id:"minecraft:creeper",powered:1}}],SpawnCount:3,SpawnRange:5,MaxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}}
+
+殺手兔生怪磚礦車
+/give @p stray_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"殺手兔生怪磚礦車"}]'},EntityTag:{id:"minecraft:spawner_minecart",CustomName:"",Invulnerable:true,SpawnData:{id:"minecraft:rabbit",RabbitType:99},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:rabbit",RabbitType:99}}],SpawnCount:3,SpawnRange:5,MaxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}}
+
+可馴服骷髏馬(雷雨專用)
+/give @p stray_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"可馴服骷髏馬生怪磚礦車(雷雨專用)"}]'},EntityTag:{id:"minecraft:spawner_minecart",CustomName:"",Invulnerable:true,SpawnData:{id:"minecraft:skeleton_horse",Tame:1,SaddleItem:{id:saddle,Count:1}},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:skeleton_horse",Tame:1,SaddleItem:{id:saddle,Count:1}}}],SpawnCount:3,SpawnRange:5,MaxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}}
+
+1400經驗值生怪磚礦車
+/give @p stray_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"1400經驗值生怪磚礦車"}]'},EntityTag:{id:"minecraft:spawner_minecart",CustomName:"",Invulnerable:true,SpawnData:{id:"experience_orb",Value:1400},SpawnPotentials:[{Weight:1,Entity:{id:"experience_orb",Value:1400}}],SpawnCount:3,SpawnRange:5,MaxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}}
 
 
-/give @p stray_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"礦車生怪蛋"}]'},EntityTag:{id:"minecraft:spawner_minecart",CustomName:"",Invulnerable:true,SpawnData:{id:"minecraft:lightning_bolt"},SpawnPotentials:[{Entity:{id:"minecraft:lightning_bolt"}}],SpawnCount:3,SpawnRange:5,MaxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}}
 
-/give @p stray_spawn_egg{display:{Name:'[{"text":"","italic":false},{"text":"礦物生怪磚礦車生怪蛋"}]'},EntityTag:{id:"minecraft:spawner_minecart",CustomName:"",Invulnerable:true,SpawnData:{id:"item",Item:{Count:1b,id:"minecraft:diamond_block"}},SpawnPotentials:[{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:iron_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:gold_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:emerald_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:diamond_block"}}},{Weight:1,Entity:{id:"item",Item:{Count:1b,id:"minecraft:netherite_block"}}}],SpawnCount:3,SpawnRange:5,MaxNearbyEntities:6,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:1}}
 
 
 ########################生怪磚########################
