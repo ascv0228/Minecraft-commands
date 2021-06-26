@@ -1,4 +1,4 @@
-/give @a minecraft:netherite_sword{Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"smite",lvl:32767},{id:"	minecraft:bane_of_arthropods",lvl:32767},{id:"sweeping",lvl:32767},{id:"unbreaking",lvl:32767},{id:"looting",lvl:100},{id:"fire_aspect",lvl:100s},{id:"Mending"}]} 1
+/give @a minecraft:netherite_sword{Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"smite",lvl:32767},{id:"	minecraft:bane_of_arthropods",lvl:32767},{id:"sweeping",lvl:32767},{id:"unbreaking",lvl:32767},{id:"looting",lvl:100},{id:"fire_aspect",lvl:100},{id:"mending"}]} 1
 
 弓
 /give @a minecraft:bow{Unbreakable:1,Enchantments:[{id:"unbreaking",lvl:32767},{ id:"power",lvl:32767},{id:"punch",lvl:5},{id:"mending",lvl: 32767},{id:"flame",lvl:1},{id:"infinity",lvl:1}]} 1
@@ -23,7 +23,7 @@
 /give @a minecraft:netherite_pickaxe{display:{Name:'[{"text":"獄髓鎬（絲綢之觸）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"silk_touch",lvl:1},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
 
 獄髓鎬（幸運）
-/give @a minecraft:netherite_pickaxe{display:{Name:'[{"text":"獄髓鎬（幸運）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"fortune",lvl:100},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1} ]}
+/give @a minecraft:netherite_pickaxe{display:{Name:'[{"text":"獄髓鎬（幸運）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"fortune",lvl:100},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
 
 獄髓鏟（絲綢之觸）
 /give @a minecraft:netherite_shovel{display:{Name:'[{"text":"獄髓鏟（絲綢之觸）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"silk_touch",lvl:1},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
