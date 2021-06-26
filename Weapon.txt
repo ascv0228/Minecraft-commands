@@ -1,5 +1,4 @@
-獄髓劍
-/give @a minecraft:netherite_sword{Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:smite",lvl:32767},{id:"	minecraft:bane_of_arthropods",lvl:32767},{id:"minecraft:sweeping",lvl:32767},{id:"minecraft:unbreaking",lvl:32767},{id:"minecraft:looting",lvl:100},{id:"minecraft:fire_aspect",lvl:100s},{id:"minecraft:Mending"}],Unbreakable:1b} 1
+/give @a minecraft:netherite_sword{Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"smite",lvl:32767},{id:"	minecraft:bane_of_arthropods",lvl:32767},{id:"sweeping",lvl:32767},{id:"unbreaking",lvl:32767},{id:"looting",lvl:100},{id:"fire_aspect",lvl:100s},{id:"Mending"}]} 1
 
 弓
 /give @a minecraft:bow{Unbreakable:1,Enchantments:[{id:"unbreaking",lvl:32767},{ id:"power",lvl:32767},{id:"punch",lvl:5},{id:"mending",lvl: 32767},{id:"flame",lvl:1},{id:"infinity",lvl:1}]} 1
@@ -8,38 +7,40 @@
 /give @a crossbow{Unbreakable:1,Enchantments:[{id:"multishot",lvl:1}, {id:"piercing",lvl:32767},{id:"quick_charge",lvl:5},{id:"unbreaking",lvl:32767},{id:"mending",lvl:32767}]} 1
 
 三叉戟(穿刺引雷忠誠）
-/give @a trident{display:{Name:'[{"text":"三叉戟(忠誠）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:"unbreaking",lvl: 32767},{id:"loyalty",lvl:10},{id:"impaling",lvl:32767},{id:"channeling",lvl:1},{id:"mending",lvl: 32767}]} 1
+/give @a trident{display:{Name:'[{"text":"三叉戟(忠誠）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"unbreaking",lvl: 32767},{id:"loyalty",lvl:10},{id:"impaling",lvl:32767},{id:"channeling",lvl:1},{id:"mending",lvl: 32767}]} 1
 
 三叉戟(穿刺激流）
-/give @a trident{display:{Name:'[{"text":"三叉戟(激流）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"unbreaking",lvl: 32767},{id:"minecraft:looting",lvl:100},{id:riptide,lvl:100},{id:"impaling",lvl:32767},{id:"mending",lvl: 32767}]} 1
+/give @a trident{display:{Name:'[{"text":"三叉戟(激流）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"unbreaking",lvl: 32767},{id:"looting",lvl:100},{id:riptide,lvl:100},{id:"impaling",lvl:32767},{id:"mending",lvl: 32767}]} 1
 
 
 獄髓斧（絲綢之觸）
-/give @a minecraft:netherite_axe{display:{Name:'[{"text":"獄髓斧（絲綢之觸）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:silk_touch,lvl:1},{id:unbreaking,lvl:32767},{id:mending,lvl:1}]}
+/give @a minecraft:netherite_axe{display:{Name:'[{"text":"獄髓斧（絲綢之觸）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"silk_touch",lvl:1},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
 
 獄髓斧（幸運）
-/give @a minecraft:netherite_axe{display:{Name:'[{"text":"獄髓斧（幸運）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:fortune,lvl:100},{id:unbreaking,lvl:32767},{id:mending,lvl:1}]}
+/give @a minecraft:netherite_axe{display:{Name:'[{"text":"獄髓斧（幸運）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"fortune",lvl:100},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
 
 獄髓鎬（絲綢之觸）
-/give @a minecraft:netherite_pickaxe{display:{Name:'[{"text":"獄髓鎬（絲綢之觸）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:silk_touch,lvl:1},{id:unbreaking,lvl:32767},{id:mending,lvl:1}]}
+/give @a minecraft:netherite_pickaxe{display:{Name:'[{"text":"獄髓鎬（絲綢之觸）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"silk_touch",lvl:1},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
 
 獄髓鎬（幸運）
-/give @a minecraft:netherite_pickaxe{display:{Name:'[{"text":"獄髓鎬（幸運）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:fortune,lvl:100},{id:unbreaking,lvl:32767},{id:mending,lvl:1} ]}
+/give @a minecraft:netherite_pickaxe{display:{Name:'[{"text":"獄髓鎬（幸運）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"fortune",lvl:100},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1} ]}
 
 獄髓鏟（絲綢之觸）
-/give @a minecraft:netherite_shovel{display:{Name:'[{"text":"獄髓鏟（絲綢之觸）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:silk_touch,lvl:1},{id:unbreaking,lvl:32767},{id:mending,lvl:32767}]}
+/give @a minecraft:netherite_shovel{display:{Name:'[{"text":"獄髓鏟（絲綢之觸）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"silk_touch",lvl:1},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
 
 獄髓鏟（幸運）
-/give @a minecraft:netherite_shovel{display:{Name:'[{"text":"獄髓鏟（幸運）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:fortune,lvl:100},{id:unbreaking,lvl:32767},{id:mending,lvl:32767}]}
+/give @a minecraft:netherite_shovel{display:{Name:'[{"text":"獄髓鏟（幸運）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"fortune",lvl:100},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
 
 獄髓鋤（絲綢之觸）
-/give @a minecraft:netherite_hoe{display:{Name:'[{"text":"獄髓鋤（絲綢之觸）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:silk_touch,lvl:1},{id:unbreaking,lvl:32767},{id:mending,lvl:32767}]}
+/give @a minecraft:netherite_hoe{display:{Name:'[{"text":"獄髓鋤（絲綢之觸）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"silk_touch",lvl:1},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
 
 獄髓鋤（幸運）
-/give @a minecraft:netherite_hoe{display:{Name:'[{"text":"獄髓鋤（幸運）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:looting",lvl:100},{id:efficiency,lvl:32767},{id:fortune,lvl:100},{id:unbreaking,lvl:32767},{id:mending,lvl:32767}]}
+/give @a minecraft:netherite_hoe{display:{Name:'[{"text":"獄髓鋤（幸運）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"fortune",lvl:100},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
+
+/give @a minecraft:netherite_hoe{display:{Name:'[{"text":"獄髓鋤（幸運）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"fortune",lvl:100},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
 
 釣竿：
-/give @a minecraft:fishing_rod{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:32767},{id:"minecraft:lure",lvl:5},{id:"minecraft:looting",lvl:100},{id:luck_of_the_sea,lvl:32767},{id:unbreaking,lvl:32767},{id:mending,lvl:32767}]}
+/give @a minecraft:fishing_rod{Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"lure",lvl:5},{id:"looting",lvl:100},{id:"luck_of_the_sea",lvl:32767},{id:"unbreaking",lvl:32767},{id:"mending",lvl:32767}]}
 
 
 
@@ -56,4 +57,4 @@
 /give @a netherite_boots{Unbreakable:1,Enchantments:[{id:"unbreaking",lvl:32767},{id:"protection",lvl:32767},{id:"feather_falling",lvl:32767},{id:"thorns",lvl:32767},{id:"mending",lvl:1},{id:"depth_strider",lvl:1},{id:"soul_speed",lvl:3}]}
 
 鞘翅
-/give @a minecraft:elytra{Unbreakable:1,Enchantments:[{id:"thorns",lvl:32767},{id:unbreaking,lvl:32767},{id:mending,lvl:1},{id:"protection",lvl:32767}]}
+/give @a minecraft:elytra{Unbreakable:1,Enchantments:[{id:"thorns",lvl:32767},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1},{id:"protection",lvl:32767}]}
