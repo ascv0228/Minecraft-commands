@@ -23,7 +23,7 @@
 {id:command_block_minecart,Command:'kill @e[type=command_block_minecart,distance=..1]'}]}]}]}`
 
 # 浮空文字
-`summon area_effect_cloud ~ ~ ~ {CustomName:'"文字"',CustomNameVisible:1,Duration:2147483647}`
-`summon armor_stand ~ ~ ~ {Invulnerable:1,Marker:1,Invisible:1,NoGravity:1,DisabledSlots:4144959,CustomName:'"懸浮文字"',CustomNameVisible:1}`
-`summon area_effect_cloud ~ ~ ~ {Invulnerable:1,Duration:2147483647,Particle:"block air",CustomName:'"懸浮文字"',CustomNameVisible:1}`
-`summon area_effect_cloud ~ ~ ~ {Tags:[""],CustomName:'"懸浮文字"',CustomNameVisible:1,Invulnerable:1,Duration:2147483647,Particle:"block air"}`
+```summon area_effect_cloud ~ ~ ~ {CustomName:'"文字"',CustomNameVisible:1,Duration:2147483647}```
+```summon armor_stand ~ ~ ~ {Invulnerable:1,Marker:1,Invisible:1,NoGravity:1,DisabledSlots:4144959,CustomName:'"懸浮文字"',CustomNameVisible:1}```
+```summon area_effect_cloud ~ ~ ~ {Invulnerable:1,Duration:2147483647,Particle:"block air",CustomName:'"懸浮文字"',CustomNameVisible:1}```
+```summon area_effect_cloud ~ ~ ~ {Tags:[""],CustomName:'"懸浮文字"',CustomNameVisible:1,Invulnerable:1,Duration:2147483647,Particle:"block air"}```
