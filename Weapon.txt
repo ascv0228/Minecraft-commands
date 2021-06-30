@@ -2,16 +2,16 @@
 /give @a minecraft:netherite_sword{Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"smite",lvl:32767},{id:"	minecraft:bane_of_arthropods",lvl:32767},{id:"sweeping",lvl:32767},{id:"unbreaking",lvl:32767},{id:"looting",lvl:100},{id:"fire_aspect",lvl:100},{id:"mending",lvl:1}]} 1
 
 弓
-/give @a minecraft:bow{Unbreakable:1,Enchantments:[{id:"unbreaking",lvl:32767},{ id:"power",lvl:32767},{id:"punch",lvl:5},{id:"mending",lvl: 32767},{id:"flame",lvl:1},{id:"infinity",lvl:1}]} 1
+/give @a minecraft:bow{Unbreakable:1,Enchantments:[{id:"unbreaking",lvl:32767},{ id:"power",lvl:32767},{id:"punch",lvl:5},{id:"mending",lvl:1},{id:"flame",lvl:1},{id:"infinity",lvl:1}]} 1
 
 弩
 /give @a crossbow{Unbreakable:1,Enchantments:[{id:"multishot",lvl:1}, {id:"piercing",lvl:32767},{id:"quick_charge",lvl:5},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]} 1
 
 三叉戟(穿刺引雷忠誠）
-/give @a trident{display:{Name:'[{"text":"三叉戟(忠誠）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"unbreaking",lvl: 32767},{id:"loyalty",lvl:10},{id:"impaling",lvl:32767},{id:"channeling",lvl:1},{id:"mending",lvl: 32767}]} 1
+/give @a trident{display:{Name:'[{"text":"三叉戟(忠誠）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"unbreaking",lvl: 32767},{id:"loyalty",lvl:10},{id:"impaling",lvl:32767},{id:"channeling",lvl:1},{id:"mending",lvl:1}]} 1
 
 三叉戟(穿刺激流）
-/give @a trident{display:{Name:'[{"text":"三叉戟(激流）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"unbreaking",lvl: 32767},{id:"looting",lvl:100},{id:riptide,lvl:100},{id:"impaling",lvl:32767},{id:"mending",lvl: 32767}]} 1
+/give @a trident{display:{Name:'[{"text":"三叉戟(激流）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"unbreaking",lvl: 32767},{id:"looting",lvl:100},{id:riptide,lvl:100},{id:"impaling",lvl:32767},{id:"mending",lvl:1}]} 1
 
 
 獄髓斧（絲綢之觸）
@@ -36,8 +36,6 @@
 /give @a minecraft:netherite_hoe{display:{Name:'[{"text":"獄髓鋤（絲綢之觸）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"silk_touch",lvl:1},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
 
 獄髓鋤（幸運）
-/give @a minecraft:netherite_hoe{display:{Name:'[{"text":"獄髓鋤（幸運）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"fortune",lvl:100},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
-
 /give @a minecraft:netherite_hoe{display:{Name:'[{"text":"獄髓鋤（幸運）","italic":false}]'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:32767},{id:"looting",lvl:100},{id:"efficiency",lvl:32767},{id:"fortune",lvl:100},{id:"unbreaking",lvl:32767},{id:"mending",lvl:1}]}
 
 釣竿：
