@@ -1,7 +1,7 @@
-https://minecraft.fandom.com/zh/wiki/%E5%B1%9E%E6%80%A7
-https://home.gamer.com.tw/creationDetail.php?sn=3960292
-https://minecraft.fandom.com/zh/wiki/%E7%8A%B6%E6%80%81%E6%95%88%E6%9E%9C
-https://home.gamer.com.tw/creationDetail.php?sn=3948212
+https://minecraft.fandom.com/zh/wiki/%E5%B1%9E%E6%80%A7  
+https://home.gamer.com.tw/creationDetail.php?sn=3960292  
+https://minecraft.fandom.com/zh/wiki/%E7%8A%B6%E6%80%81%E6%95%88%E6%9E%9C  
+https://home.gamer.com.tw/creationDetail.php?sn=3948212  
 
 # 生物屬性
 #### **屬性** 
@@ -71,7 +71,15 @@ XX  劇毒(基岩版)
 32  村莊英雄
 ```
 
-# 生物屬性
+# 武器屬性
 ```java
-diamond_sword{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:20,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]}]}
+mainhand，offhand，head，legs，chest，feet。
+
+diamond_sword
+   {
+    AttributeModifiers:
+     [
+     {Slot:"mainhand",AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:20,Operation:0,UUID:[I;1,1,1,1]}
+     ]
+   }
 ```
