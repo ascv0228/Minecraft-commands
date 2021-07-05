@@ -3,6 +3,8 @@ https://home.gamer.com.tw/creationDetail.php?sn=3960292
 https://minecraft.fandom.com/zh/wiki/%E7%8A%B6%E6%80%81%E6%95%88%E6%9E%9C  
 https://home.gamer.com.tw/creationDetail.php?sn=3948212  
 
+`/give @p subtitles.block.generic.break{display:{Name:'[{"text":"","italic":false},{"text":"組咒凋零頭","color":"dark_red"}]'},AttributeModifiers:[{Slot:"head",AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0.56,Operation:1,UUID:[I;1625450008,1625450008,1625450008,1625450008]},{Slot:"head",AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:7,Operation:0,UUID:[I;1625450007,1625450007,1625450007,1625450007]},{Slot:"head",AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-8,Operation:0,UUID:[I;1625450006,1625450006,1625450006,1625450006]},{Slot:"head",AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:4,Operation:0,UUID:[I;1625450005,1625450005,1625450005,1625450005]},{Slot:"head",AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:1.0,Operation:0,UUID:[I;1625450004,1625450004,1625450004,1625450004]}],Enchantments:[{"id":"minecraft:protection","lvl":40},{"id":"minecraft:binding_curse","lvl":3}]} 1`
+
 # 生物屬性
 #### **屬性** 
 ```Java
