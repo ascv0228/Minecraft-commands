@@ -118,6 +118,9 @@ llama_spit
 追跡之箭
 spectral_arrow
 ^^^^^^^^^^^^^投射物^^^^^^^^^^^^^
+虛擬方塊
+/summon falling_block ~5 ~1 ~ {BlockState:{Name:"minecraft:stone"},Time:1,NoGravity:1}
+ 0 < time < 600
 
 閃電
 lightning_bolt
